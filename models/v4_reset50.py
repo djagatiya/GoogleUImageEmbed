@@ -1,6 +1,3 @@
-# Public Score: 0.222
-# 21.4s - GPU
-
 import torch
 import torch.nn as nn
 from torchvision import models
@@ -9,7 +6,7 @@ from torchvision import transforms
 class MyModel(nn.Module):
   def __init__(self):
     super().__init__()
-    self.base_model = models.resnet18(pretrained=True)
+    self.base_model = models.resnet50(pretrained=True)
     self.feature_extractor = torch.nn.Sequential(
         *list(self.base_model.children())[:-1],
         nn.Flatten(),

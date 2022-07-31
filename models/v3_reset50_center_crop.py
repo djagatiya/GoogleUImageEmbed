@@ -2,7 +2,7 @@
 # 21.9s - GPU
 
 # Best Score
-# 
+# 0.251
 
 import torch
 import torch.nn as nn
