@@ -1,3 +1,9 @@
+# Run
+# 23.1s - GPU
+
+# Public Score
+# 0.245
+
 import torch
 import torch.nn as nn
 from torchvision import models
