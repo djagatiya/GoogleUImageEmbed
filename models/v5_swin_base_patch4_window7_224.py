@@ -1,3 +1,9 @@
+# Run
+# 32.3s - GPU
+
+# Public Score
+# 0.350
+
 import timm
 
 import torch
